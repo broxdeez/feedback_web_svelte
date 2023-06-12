@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.radio-li {
+    @apply relative bg-[#f4f4f4] w-12 h-12 p-2 text-center rounded-full font-bold border-2 border-[#eee] border-solid hover:bg-[#ff6a95] 
+}
+
+.li-label { 
+    @apply absolute cursor-pointer w-12 h-12 left-0 top-0 opacity-0
+}
